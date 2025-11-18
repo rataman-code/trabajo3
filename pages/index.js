@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
-import '../styles/globals.css'
 
 export default function Home(){
   const [data, setData] = useState(null)
